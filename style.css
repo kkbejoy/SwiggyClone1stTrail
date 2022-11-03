@@ -1,0 +1,31 @@
+.card {
+    width:23rem;
+    margin: 5px auto;
+    float: none;
+    margin-bottom: 10px;
+    justify-content: space-evenly;
+    display: flex;
+
+}
+body{
+    overflow-x:hidden ;
+}
+.cards:hover{
+    background-color: rgba(251, 251, 251, 0.35);
+}
+
+.navbar{
+    
+    position:sticky;
+    top:0px;
+    bottom: 200px;
+    z-index: 1;
+}
+.nav-link{
+    color: black;
+    font-weight: 500;
+}
+.navbar-brand{
+    font-weight: 500;
+    
+}
